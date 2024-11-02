@@ -36,7 +36,7 @@ To run this project, ensure you have the following installed:
 ## Building
 ```bash
 docker build -t rockylinux-apache .
-
+```
 ```bash
 docker run -d -p 8080:80 rockylinux-apache
 ```

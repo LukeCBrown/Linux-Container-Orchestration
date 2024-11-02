@@ -20,9 +20,6 @@ This repository contains a Dockerfile and sample HTML file that, together, allow
 - Basic HTML file served by Apache
 - Port forwarding for local testing on `http://localhost:8080`
 
-## Project Structure
-rockylinux-apache-docker/ ├── Dockerfile # Instructions for building the Docker image ├── index.html # Sample HTML file to serve via Apache └── README.md # Project documentation
-
 
 ## Prerequisites
 To run this project, ensure you have the following installed:

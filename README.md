@@ -8,8 +8,7 @@ This project sets up a simple Apache web server running in a Docker container wi
 - [Prerequisites](#prerequisites)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Overview
 This repository contains a Dockerfile and sample HTML file that, together, allow you to run an Apache HTTP Server inside a Rocky Linux 8 container. The server serves a static HTML page on port 8080 of your local machine.

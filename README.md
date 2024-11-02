@@ -34,16 +34,20 @@ To run this project, ensure you have the following installed:
 
 
 ## Building
+```bash
 docker build -t rockylinux-apache .
 
+```bash
 docker run -d -p 8080:80 rockylinux-apache
+```
 
 To stop the container, first list running containers to find the container ID:
 docker ps
 
 Then stop the container:
+```bash
 docker stop <container_id>
-
+```
 ---
 
 This `README.md` is designed to be clear, informative, and beginner-friendly. It covers all essential sections, from a quick overview to detailed setup instructions and a usage guide. Make sure to replace `https://github.com/yourusername/rockylinux-apache-docker.git` with your actual GitHub repository URL.
